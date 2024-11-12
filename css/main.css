@@ -1,0 +1,73 @@
+.hero-section {
+    height: 600px;
+    background-image: url('../imgs/pexels-julieaagaard-2433868.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center;
+    padding: 100 20px;
+  }
+
+  .hero-section h1 {
+
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .hero-section p {
+    font-size: 1.25rem;
+  }
+
+  .product-section {
+    padding: 60px 20px;
+
+    background-color: #E5DDDD;
+  }
+
+  .card {
+
+    height: 480px;       /* Fixed height for the card */
+    width: 265px;
+    overflow: hidden; 
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+  .card-img-top {
+    height: 48%;
+    object-fit: cover;
+  }
+
+  .card-body {
+    height: 52%;
+  }
+
+  .card-btn {
+    position: absolute;
+    margin-top: 3px;
+    bottom: 4%;                   
+  }
+
+  .card-price {
+    position: absolute;
+    margin-top: 3px;
+    bottom: 12%;  
+  }
+
+  .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    #products-header {
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: Helvetica, sans-serif;
+      color: #002765;
+    }
